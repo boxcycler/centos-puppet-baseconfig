@@ -1,0 +1,15 @@
+#-------------------------------------------------------------------------------
+#  CONFIGURATION FILE
+#-------------------------------------------------------------------------------
+# project name:  Systems Administration
+# file name:     .bash_logout
+# modified:      January 17, 2018
+# description:   Clear the screen on logout.
+
+if [ "$SHLVL" = 1 ]; then
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+fi
+
+#-------------------------------------------------------------------------------
+# END OF FILE
+#-------------------------------------------------------------------------------
